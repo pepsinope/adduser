@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #686767;
+  border-radius: 20px;
+}
+

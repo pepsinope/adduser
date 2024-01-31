@@ -44,13 +44,32 @@ form {
 }
 
 .drawerMenu{
+  display: flex;
+  justify-content: space-between;
+  flex:none;
+  text-align: center;
+  align-items: center;
+}
+
+.drawerList{
   flex:none;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   display: flex;
+  margin-top: 10px;
+}
+
+.drawerButton{
+  flex:none;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
 }
 
 button {
-  padding-bottom: 10px;
+  margin-bottom : 10px;
 }
+

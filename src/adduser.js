@@ -1,8 +1,10 @@
-import './style.css';
+import './index.css';
+import MiniDrawer from './components/MiniDrawer';
 
 function Adduser() {
   return (
     <div style={{ flex: 20 }} className='mx-5 my-5'>
+      <MiniDrawer/>
       <div style={{ flex: 5 }} className=" flex flex-row justify-start text-black text-3xl font-extrabold">
         <div className='pr-1'>ข้อมูลผู้ใช้งาน</div>
         <div className='text-rose-color'>อาจารย์</div>

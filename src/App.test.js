@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App from './MiniDrawer';
+import App from './components/MiniDrawer';
 
 test('renders learn react link', () => {
   render(<App />);

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@use "@material/drawer";
+@use "@material/list";
+@include drawer.core-styles;
+@include drawer.dismissible-core-styles;
+@include drawer.modal-core-styles;
+@include list.deprecated-core-styles;
+
 form {
   overflow: auto;
 }
@@ -17,3 +24,33 @@ form {
   border-radius: 20px;
 }
 
+/* MiniDrawer.css */
+
+.mini-drawer {
+  width: 220px;
+  height: 100%;
+  background-color: #4B0707;
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: -140px; /* Initially off-screen */
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease; /* Smooth transition */
+}
+
+.mini-drawer.open {
+  left: 0; /* Slide in when open */
+}
+
+.drawerMenu{
+  flex:none;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+button {
+  padding-bottom: 10px;
+}

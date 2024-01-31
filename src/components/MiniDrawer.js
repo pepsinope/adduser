@@ -50,7 +50,7 @@ const MiniDrawer = () => {
                     </button>
                 </div>
                 <div className='drawerList'>
-                <div className='bg-lime-600 p-1 rounded-md'>ออกจากระบบ</div>
+                <div className='bg-lime-600 p-1 rounded-md w-3/6'>เปิด</div>
                     <button onClick={toggleDrawer} >
                         <IoLockOpen size={40} />
                     </button>

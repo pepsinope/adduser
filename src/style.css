@@ -51,23 +51,16 @@ form {
   align-items: center;
 }
 
-.drawerList{
+.drawerList {
   flex:none;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-.drawerButton{
-  flex:none;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  margin-top: 10px;
-}
+
 
 button {
   margin-bottom : 10px;
